@@ -16,9 +16,8 @@ function setup() {
   sound.loop();
   fft = new p5.FFT();
 }
-  function loaded() {
+ function loaded() {
   sound.play();
-
 }
 
 function draw() {
