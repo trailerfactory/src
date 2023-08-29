@@ -7,14 +7,18 @@ let zoom = 1;
 
 function preload() {
   soundFormats('mp3');
-  sound = loadSound('https://github.com/trailerfactory/src/blob/main/Hraach.mp3');
+  sound = loadSound('Hraach.mp3', loaded);
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
-  sound.play()
+
   sound.loop();
   fft = new p5.FFT();
+}
+  function loaded() {
+  sound.play();
+
 }
 
 function draw() {
