@@ -12,6 +12,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
+  sound.play()
   sound.loop();
   fft = new p5.FFT();
 }
