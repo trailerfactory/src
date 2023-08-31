@@ -5,11 +5,11 @@ let angleY = 0;
 let scaleFactor = 1;
 let zoom = 1;
 
+
 function preload() {
  
-  sound = loadSound('https://assets.codepen.io/10749896/Hraach.mp3');
+  sound = loadSound('Hraach.mp3');
 }
-
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   sound.loop();
