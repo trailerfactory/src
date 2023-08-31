@@ -7,7 +7,7 @@ let zoom = 1;
 
 
 function preload() {
-  soundFormats('mp3', 'ogg');
+
  sound = loadSound('Hraach.mp3');
 }
 function setup() {
