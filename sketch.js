@@ -1,4 +1,4 @@
-let sound;
+let song;
 let fft;
 let angleX = 0;
 let angleY = 0;
@@ -7,8 +7,7 @@ let zoom = 1;
 
 
 function preload() {
-
- sound = loadSound('Hraach.mp3');
+ song = loadSound('Hraach.mp3');
 }
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
