@@ -7,8 +7,8 @@ let zoom = 1;
 
 
 function preload() {
- 
-  sound = loadSound('Hraach.mp3');
+  soundFormats('mp3', 'ogg');
+ sound = loadSound('Hraach.mp3');
 }
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
