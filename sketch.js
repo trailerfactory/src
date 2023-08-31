@@ -6,7 +6,7 @@ let scaleFactor = 1;
 let zoom = 1;
 
 function preload() {
-  soundFormats('mp3');
+
   sound = loadSound('Hraach.mp3', loaded);
 }
 
