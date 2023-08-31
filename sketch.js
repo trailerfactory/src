@@ -6,18 +6,14 @@ let scaleFactor = 1;
 let zoom = 1;
 
 function preload() {
-
-  sound = loadSound('Hraach.mp3', loaded);
+ 
+  sound = loadSound('Hraach.mp3');
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
-
   sound.loop();
   fft = new p5.FFT();
-}
- function loaded() {
-  sound.play();
 }
 
 function draw() {
