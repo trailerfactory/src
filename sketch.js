@@ -7,7 +7,7 @@ let zoom = 1;
 
 function preload() {
  
-  sound = loadSound('Hraach.mp3');
+  sound = loadSound('https://assets.codepen.io/10749896/Hraach.mp3');
 }
 
 function setup() {
